@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.country .bar {
+  background: #E7DFC6;
+  height: 4px;
+  border-radius: 2px;
+  animation: scaleX 500ms;
+  transform-origin: center left;
+}
